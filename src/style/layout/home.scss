@@ -1,0 +1,21 @@
+.contHome {
+    padding: 260px 50% 0px 8% ;
+    heigth: 400px ;
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+        ),
+        url(../../../public/backgroundHome.jpg) ;
+        background-size: cover;
+        display: grid ;
+        margin-top: -175px ;
+
+    .titleHome {
+        @include fontTitleHome ;
+    }
+    .textHome {}
+    .btnHome {}
+    .imgLocation {}
+    .textLocation {}
+}

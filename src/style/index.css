@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.header {
+  height: 150px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+.header .contLogo .logoImg {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.header .contLogo .logoText {
+  font-family: "Spectral", serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #313131;
+}
+.header .navMenu .navUl {
+  list-style-type: none;
+  text-align: end;
+  margin-top: 20px;
+}
+.header .navMenu .navUl .navLi {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #f0f0f0;
+  display: inline;
+  margin-left: 20px;
+}
+
+.contHome {
+  padding: 260px 50% 0px 8%;
+  heigth: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../public/backgroundHome.jpg);
+  background-size: cover;
+  display: grid;
+  margin-top: -175px;
+}
+.contHome .titleHome {
+  font-family: "Spectral", serif;
+  font-size: 45px;
+  fontweight: 500;
+  color: #f0f0f0;
+}/*# sourceMappingURL=index.css.map */

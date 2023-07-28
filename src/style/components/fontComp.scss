@@ -1,0 +1,20 @@
+@mixin fontLogo {
+    font-family: $fontTitle ;
+    font-size: 40px ;
+    font-weight: 700 ;
+    color: $colorBlack ;
+}
+
+@mixin fontMenu {
+    font-family: sans-serif ;
+    font-size: 18px ;
+    font-weight: 400 ;
+    color: $colorWithe ;
+}
+
+@mixin fontTitleHome {
+    font-family: $fontTitle ;
+    font-size: 45px ;
+    fontweight: 500 ;
+    color: $colorWithe ;
+}
