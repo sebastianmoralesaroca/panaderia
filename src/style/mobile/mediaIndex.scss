@@ -1,0 +1,54 @@
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
+    .header {
+        padding: 0% 5% ;
+        .contLogo {
+            .logoImg {}
+            .logoText {}
+        }
+        .navMenu {
+            .menuBurger {
+                display: block ;
+                width: 50px ;
+                heigth: 50px ;
+                margin-left: 90% ;
+            }
+            .navUl {
+                display: none ;
+                .navLi {
+                }
+            }
+        }
+    }
+    .contHome {
+        padding: 260px 40% 0px 5% ;
+        background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.9)
+            ),
+            url(../../../public/backgroundHomeMobile.jpg) ;
+            background-size: cover;
+        .titleHome {}
+        .textHome {}
+        .btnHome {}
+        .spanHome {
+            .imgLocation {}
+            .textLocation {}
+        }
+    }
+    .contBread {
+        padding: 0% 5% ;
+        .titleBread {}
+        .contCard {
+            .card {
+                .imgCard {}
+                .moneyCard {}
+                .titleCard {}
+            }
+        }
+        .btnCard {}
+    }
+    .futter {}
+}
+

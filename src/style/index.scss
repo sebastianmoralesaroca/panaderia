@@ -2,6 +2,7 @@
 @import './base/styleDefect.scss' ;
 @import './base/fontBase.scss' ;
 @import './base/colorBase.scss' ;
+@import './base/querisBase.scss' ;
 
 // components
 @import './components/buttonComp.scss' ;
@@ -12,5 +13,7 @@
 // layout
 @import './layout/header.scss' ;
 @import './layout/home.scss' ;
+@import './layout/breadCard.scss' ;
 
 // media querisss
+@import './mobile/mediaIndex.scss' ;

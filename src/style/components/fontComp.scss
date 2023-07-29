@@ -2,19 +2,48 @@
     font-family: $fontTitle ;
     font-size: 40px ;
     font-weight: 700 ;
-    color: $colorBlack ;
+    color: $colorWithe ;
 }
 
 @mixin fontMenu {
-    font-family: sans-serif ;
+    font-family: $fontText ;
     font-size: 18px ;
     font-weight: 400 ;
     color: $colorWithe ;
 }
 
-@mixin fontTitleHome {
+@mixin fontTitle {
     font-family: $fontTitle ;
-    font-size: 45px ;
+    font-size: 55px ;
     fontweight: 500 ;
     color: $colorWithe ;
+}
+
+@mixin fontTextHome {
+    font-family: $fontText ;
+    font-size: 20px ;
+    font-weight: 400 ;
+    color: $colorWitheSmoke ;
+}
+
+@mixin fontTextSpanHome {
+    font-family: $fontText ;
+    font-size: 15px ;
+    font-weight: 400 ;
+    color: $colorWitheSmoke ;
+    display: inline ;
+}
+
+@mixin fontMoneyCard {
+    font-family: $fontText ;
+    font-size: 20px ;
+    font-weight: 400 ;
+    color: $colorOrangeSmoke ;
+}
+
+@mixin fontbreadCard {
+    font-family: $fontText ;
+    font-size: 20px ;
+    font-weight: 400 ;
+    color: $colorWitheSmoke ;
 }

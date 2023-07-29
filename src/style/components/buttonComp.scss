@@ -1,1 +1,15 @@
+@mixin buttonPrincipal {
+    border: none ;
+    border-radius: 5px ;
+    background-color: $colorOrange ;
+    padding: 10px ;
+    width: 180px ;
+    margin-top: 30px ;
+    a {
+        font-family: serif ;
+        font-size: 18px ;
+        font-weight: bold ;
+        color: $colorBlack ;
+    }
 
+}
